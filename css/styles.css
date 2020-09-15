@@ -8,7 +8,7 @@ body {
 }
 
 .first-section {
-  background-image: url(./img/background-screen.png);
+  background-image: url(../img/background-screen.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 1041px 100%;
@@ -31,7 +31,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #2dafd7;
-  background-image: url(./img/bg-logo.png);
+
+  background-image: url(../img/bg-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -68,7 +69,7 @@ body {
   color: #2dafd7;
 }
 .iphone {
-  background-image: url(./img/right-img-mockup.png);
+  background-image: url(../img/right-img-mockup.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -103,13 +104,13 @@ input::placeholder {
   background-position: left center;
 }
 .input-name::placeholder {
-  background-image: url(./img/user.png);
+  background-image: url(../img/user.png);
 }
 .input-email::placeholder {
-  background-image: url(./img/mail.png);
+  background-image: url(../img/mail.png);
 }
 .input-phone::placeholder {
-  background-image: url(./img/phone.png);
+  background-image: url(../img/phone.png);
 }
 .list-title {
   font-family: Rubik;
@@ -131,7 +132,7 @@ input::placeholder {
   box-sizing: border-box;
   content: "";
   position: absolute;
-  background-image: url(./img/vector-line-icon.png);
+  background-image: url(../img/vector-line-icon.png);
   right: -290px;
   top: -80px;
   width: 300px;
@@ -219,7 +220,7 @@ input::placeholder {
   color: #195b84;
 }
 .iphone-section2 {
-  background-image: url(./img/right-img-mockup.png);
+  background-image: url(../img/right-img-mockup.png);
   background-repeat: no-repeat;
   background-position: right 58% bottom 50%;
   background-size: contain;
