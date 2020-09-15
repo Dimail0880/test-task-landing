@@ -1,0 +1,293 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+body {
+  padding: 0;
+}
+.wrapper {
+  margin: auto;
+  max-width: 1400px;
+}
+
+.first-section {
+  background-image: url(/img/background-screen.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1041px 100%;
+  padding-top: 55px;
+  padding-bottom: 135px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+.logo {
+  cursor: pointer;
+  width: 160px;
+  height: 80px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2dafd7;
+  background-image: url(/img/bg-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  padding-top: 26px;
+}
+.consultation-btn {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 150%;
+  /* identical to box height, or 22px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #2dafd7;
+}
+.title {
+  margin-bottom: 30px;
+}
+.title-text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 122.6%;
+  /* or 54px */
+
+  letter-spacing: 0.04em;
+
+  color: #195b84;
+}
+.sec2-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.telegram {
+  color: #2dafd7;
+}
+.iphone {
+  /* box-sizing: border-box; */
+  background-image: url(/img/right-img-mockup.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-width: 500px;
+}
+
+.main-content {
+  margin-bottom: 55px;
+}
+.main-info {
+  margin-bottom: 150px;
+}
+.form {
+}
+.form-control {
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  height: 60px;
+}
+
+input::placeholder {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #99bbc6;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.input-name::placeholder {
+  background-image: url(/img/user.png);
+}
+.input-email::placeholder {
+  background-image: url(/img/mail.png);
+}
+.input-phone::placeholder {
+  background-image: url(/img/phone.png);
+}
+.list-title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #195b84;
+}
+.stats-list {
+  padding-left: 0;
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+  border-radius: 5px;
+}
+.telegram-submit-wrapper::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  background-image: url(/img/vector-line-icon.png);
+  right: -290px;
+  top: -80px;
+  width: 300px;
+  height: 366px;
+  cursor: default;
+}
+.statistic-card {
+  border: none;
+  height: 220px;
+  width: 200px;
+  padding-top: 60px;
+}
+.statistic-card::after {
+  content: "";
+  position: absolute;
+  right: 0; /* adjust this */
+  top: 30px;
+  height: 80%; /* adjust this */
+  width: 5px;
+  background: #f3fcff;
+  border-radius: 5px;
+}
+.statistic-card:last-child:after {
+  display: none;
+}
+
+.stat-digit {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 104px;
+  line-height: 150%;
+  /* identical to box height, or 216px */
+
+  text-transform: uppercase;
+
+  color: rgba(246, 246, 246, 0.8);
+  z-index: 0;
+}
+.list-content {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.6%;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #195b84;
+  z-index: 1;
+}
+.card {
+  height: 180px;
+  background: #f4f9ff;
+  box-shadow: 5px 5px 20px rgba(0, 85, 112, 0.15);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding: 20px;
+  height: 100%;
+  margin-right: 20px;
+}
+.cards-wrapper {
+  padding-top: 55px;
+  padding-bottom: 135px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.6%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #2dafd7;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122.6%;
+  letter-spacing: 0.04em;
+  color: #195b84;
+}
+.iphone-section2 {
+  background-image: url(/img/right-img-mockup.png);
+  background-repeat: no-repeat;
+  background-position: right 58% bottom 50%;
+  background-size: contain;
+}
+@media (max-width: 768px) {
+  .iphone {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .iphone-section2,
+  .first-section {
+    padding: 10px;
+  }
+  .iphone-section2 {
+    background-image: none;
+  }
+  .stats-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .statistic-card::after {
+    display: none;
+  }
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1200px) {
+  .iphone {
+    display: none;
+  }
+  .telegram-submit-wrapper::after {
+    display: none;
+  }
+  .stats-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .statistic-card::after {
+    display: none;
+  }
+  .iphone-section2 {
+    background: none;
+  }
+  .cards-wrapper {
+    padding: 20px;
+  }
+}
